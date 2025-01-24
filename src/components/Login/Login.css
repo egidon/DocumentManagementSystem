@@ -1,0 +1,56 @@
+.body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #071c2f, #0d253d); /* Dark blue to medium blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: "#ffffff";
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* This is the section for the form */
+.form-login-wrap{
+    width: 450px;
+    max-width: 100%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+     
+}
+.access-box{
+    background: #fff;
+    border-radius: 3px;
+    padding: 35px 50px 30px 35px;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
