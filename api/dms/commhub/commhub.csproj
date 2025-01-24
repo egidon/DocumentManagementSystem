@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <NoWarn>NU1701</NoWarn>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Cors" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.18" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Documents\CompanyManual\msword\" />
+    <Folder Include="Documents\CompanyManual\msexcel\" />
+    <Folder Include="Documents\CompanyManual\msppt\" />
+    <Folder Include="Documents\CompanyManual\others\" />
+    <Folder Include="Documents\CompanyManual\pdf\" />
+    <Folder Include="Documents\Teams\" />
+    <Folder Include="Media\Photos\companywall\" />
+    <Folder Include="Media\Photos\mywall\" />
+    <Folder Include="Media\Videos\companywall\" />
+    <Folder Include="Media\Videos\mywall\" />
+  </ItemGroup>
+
+</Project>
